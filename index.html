@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./app/style/main.css">
+</head>
+
+<body>
+    <section class="wraper">
+        <div class="notification hidden" id="modalWindow">
+            <div class="main-notifications">
+
+                <div class="text" id="text">
+                    <div class="notificationTitle" id="notificationTitle"></div>
+                    <div class="notificationDescription" id="notificationDescription"></div>
+                </div>
+
+                <button type="button" class="btn-close" aria-label="Close" id="btnClose"></button>
+            </div>
+
+
+            <div class="footer">
+                <div class="checkbox">
+                    <input type="checkbox" id="checkBox">
+                    <label for="checkBox">Disable Tips</label>
+                </div>
+
+                <div class="switch-notifications">
+                    <span class="arrow" id="arrowLeft">&lt;</span>
+                    <div class="radio-btn" id="containerRadioBtn"></div>
+                    <span class="arrow" id="arrowRight">&gt;</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <script src="./app/script/notifications/data.js" type="module"></script>
+    <script src="./app/script/notifications/button.js" type="module"></script>
+    <script src="./app/script/notifications/utills.js" type="module"></script>
+    <script src="./app/script/main.js" type="module"></script>
+    <script src="./app/script/notifications/modal.js" type="module"></script>
+    
+</body>
+
+</html>

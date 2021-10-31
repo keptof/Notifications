@@ -1,0 +1,63 @@
+.notification{
+    background-color:oldlace;
+    padding: 10px;
+    border-radius: 10px;
+    width: 420px;
+    height: 190px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.main-notifications {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notificationTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;  
+}
+
+.arrow {
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+}
+
+
+.switch-notifications{
+    display: flex;
+    align-items: flex-end;
+}
+.switch-notifications > * {
+    margin-left: 10px;
+}
+
+.radio-btn > *{
+    margin-left: 10px
+}
+
+.text{
+    width: 370px;
+    height: 100px;
+    overflow: auto;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+
